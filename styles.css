@@ -56,7 +56,6 @@ h1 {
 	font-size: 0.8rem;
 }
 
-/* ── Create button ── */
 #btnCreate {
 	margin-top: 1.5rem;
 	background: linear-gradient(135deg, var(--accent), #b02a40);
@@ -79,7 +78,6 @@ h1 {
 	box-shadow: 0 7px 30px rgba(233, 69, 96, 0.65);
 }
 
-/* ── Overlay ── */
 .overlay {
 	position: fixed;
 	inset: 0;
@@ -100,7 +98,6 @@ h1 {
 	visibility: visible;
 }
 
-/* ── Dialog ── */
 dialog {
 	all: unset;
 }
@@ -121,7 +118,6 @@ dialog {
 	transform: scale(1) translateY(0);
 }
 
-/* ── Preview panel ── */
 .preview-panel {
 	width: 260px;
 	flex-shrink: 0;
@@ -194,7 +190,6 @@ dialog {
 	font-weight: 700;
 }
 
-/* ── Form panel ── */
 .form-panel {
 	flex: 1;
 	padding: 2rem 2rem 1.5rem;
@@ -269,7 +264,6 @@ input[type="text"]::placeholder {
 	color: var(--muted);
 }
 
-/* ── Class radio grid ── */
 .class-grid {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -310,7 +304,6 @@ input[type="text"]::placeholder {
 	font-size: 1.4rem;
 }
 
-/* ── Range ── */
 .range-row {
 	display: flex;
 	align-items: center;
@@ -365,7 +358,6 @@ input[type="range"]::-moz-range-thumb {
 	font-size: 1.05rem;
 }
 
-/* ── Actions ── */
 .form-actions {
 	display: flex;
 	gap: 0.8rem;
@@ -411,7 +403,6 @@ input[type="range"]::-moz-range-thumb {
 	box-shadow: 0 6px 24px rgba(245, 200, 66, 0.55);
 }
 
-/* ── Character card (result) ── */
 #characterCard {
 	display: none;
 	flex-direction: column;
@@ -493,7 +484,6 @@ input[type="range"]::-moz-range-thumb {
 	color: var(--muted);
 }
 
-/* ── Responsive ── */
 @media (max-width: 640px) {
 	dialog {
 		flex-direction: column;
