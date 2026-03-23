@@ -360,6 +360,6 @@ $charForm.addEventListener("submit", (e) => {
 
 	$btCreate.remove();
 
-	$characterCard.style.display = "block";
+	$characterCard.style.display = "flex";
 	closeModal();
 });
